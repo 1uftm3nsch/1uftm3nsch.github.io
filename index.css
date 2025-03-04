@@ -91,6 +91,10 @@ main{
     color: white;
 }
 
+.profile-1 p{
+    margin-bottom: 15px;
+}
+
 .web-page-btn-1{
     background-color: black;
     color: blue;
