@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* font-family:"Moderustic", sans-serif; */
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    height: 64px;
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-8392.jpg');
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    line-height: 20px;
+    align-items: center;
+}
+
+.nav-bar a{
+    color: var(--other-color);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+    color: white;
+}
+
+.logo i{
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+main{
+    padding-top: 50px ;
+}
+
+.sc-1{
+    padding: 30px;
+}
+
+.sc-1-home-page{
+    max-width: 1200px;
+    background-color: black;
+    border-radius: 20px;
+    text-color: black;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white ;
+}
+
+.sc-1-home-page img{
+    width: 50%;
+    height: 50%;
+    border-radius: 500px;
+    padding: 30px;
+}
+
+.profile-1{
+    width: 90vh;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.web-page-btn-1{
+    background-color: black;
+    color: blue;
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.web-page-btn-2{
+    background-color: black;
+    color: pink;
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.web-page-btn-3{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.web-page-btn-4{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
